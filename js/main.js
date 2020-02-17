@@ -9,8 +9,6 @@ class Person {
     }
 }
 
-
-
 class Student extends Person {
     constructor(name, email) {
         super(name, email);
@@ -30,9 +28,6 @@ class Student extends Person {
         }
     }
 }
-
-
-
 
 class Teacher extends Person {
     constructor(name, email, honorific) {
